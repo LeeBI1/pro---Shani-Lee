@@ -5,15 +5,10 @@
    "id": "71f6d4c6-e0db-428d-84d1-428d4471132e",
    "metadata": {},
    "source": [
-    "# 28 \n",
-    "# השפעת תקופת הקורונה על סטודנטים בהודו\n"
+    "# 28\n",
+    "# השפעת תקופת הקורונה על סטודנטים בהודו\n",
+    "### מגישות: לי בן ישי ושני ברח״ד"
    ]
-  },
-  {
-   "cell_type": "markdown",
-   "id": "1006b33f-8226-4d44-bd9a-473c74cd0611",
-   "metadata": {},
-   "source": []
   },
   {
    "cell_type": "code",
@@ -28,6 +23,14 @@
     "import matplotlib.pyplot as plt\n",
     "import matplotlib as mpl\n",
     "import plotly.express as px"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "81d329fc-9b11-42ce-a88e-37bbd58d458e",
+   "metadata": {},
+   "source": [
+    "data"
    ]
   },
   {
@@ -498,6 +501,22 @@
   },
   {
    "cell_type": "code",
+   "execution_count": null,
+   "id": "9a7366d0-32d9-45f7-9521-977050496fc1",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "id": "82a3c53f-3918-4fe8-a3ab-0fc30d75f499",
+   "metadata": {},
+   "source": [
+    "#### איור 1"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": 311,
    "id": "2271d467-26aa-40c7-a346-3a5187c8b7ff",
    "metadata": {},
@@ -516,6 +535,14 @@
    "source": [
     "plt.pie(students_in_regions, explode = (0,0.1),labels = regions,shadow=True,autopct=lambda x: f'{x:,.2f}%\\n({x * sum(students_in_regions)/100:.0f})',textprops={'fontsize':18,'weight':'bold'}, colors= ['#FF9678','#78B5FF'])\n",
     "plt.show()"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e4d18957-69ba-46e4-ae96-8023d97c12e6",
+   "metadata": {},
+   "source": [
+    "#### איור 2"
    ]
   },
   {
@@ -3873,10 +3900,10 @@
   },
   {
    "cell_type": "markdown",
-   "id": "82a3c53f-3918-4fe8-a3ab-0fc30d75f499",
+   "id": "48550165-94a0-4cf1-92bd-6b9855f8b0a2",
    "metadata": {},
    "source": [
-    "## איור 1"
+    "#### איור 3"
    ]
   },
   {
@@ -3929,7 +3956,7 @@
    "id": "c2d675ff-22f2-40b0-97d2-9c6613fc0d1e",
    "metadata": {},
    "source": [
-    "## איור 2"
+    "#### איור 4"
    ]
   },
   {
@@ -3988,7 +4015,7 @@
    "id": "e75185ec-47f8-4b38-b2b0-5b73ad820b95",
    "metadata": {},
    "source": [
-    "## איור 3"
+    "#### איור 5"
    ]
   },
   {
@@ -4059,7 +4086,7 @@
    "id": "61b20184-70c9-4793-9934-a11c3c57859f",
    "metadata": {},
    "source": [
-    "#### איור 4"
+    "#### איור 6"
    ]
   },
   {
@@ -4242,7 +4269,7 @@
    "id": "812eaa7a-65fe-4371-86f2-f02d52fabd0b",
    "metadata": {},
    "source": [
-    "#### איור 5"
+    "#### איור 7"
    ]
   },
   {
@@ -4289,7 +4316,7 @@
    "id": "a4e0f21f-383d-4360-8197-6c57ad97d3c3",
    "metadata": {},
    "source": [
-    "#### איור 6"
+    "#### איור 8"
    ]
   },
   {
@@ -4327,7 +4354,7 @@
    "id": "198fd564-2404-4cba-a646-79bf32e646da",
    "metadata": {},
    "source": [
-    "#### איור 7"
+    "#### איור 9"
    ]
   },
   {
@@ -4398,7 +4425,7 @@
    "id": "b2522a0f-5d51-4818-ab5b-806e7702d5cc",
    "metadata": {},
    "source": [
-    "#### איור 8"
+    "#### איור 10"
    ]
   },
   {
@@ -4438,7 +4465,7 @@
    "id": "51ed9f64-9b4d-4d9f-a883-fd5b6c6ca205",
    "metadata": {},
    "source": [
-    "#### איור 9"
+    "#### איור 11"
    ]
   },
   {
